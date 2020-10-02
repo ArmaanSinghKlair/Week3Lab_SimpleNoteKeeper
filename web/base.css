@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(240,240,240);
+}
+
+p, label, em, b, input, div, span, a{
+    font-family: sans-serif;
+    font-weight: 100;
+    
+}
+
+label{
+    display: block;
+    margin: 1vmax 0;
+}
+
+textarea{
+    white-space: pre-wrap;
+}
+
+h1, h2, h3, h6, .title, .heading{
+    font-family: sans-serif;;
+    font-weight: bold;
+}
+
+.note, form{
+    display: block;
+    width: 80%;
+    margin: 1vmax auto;
+    padding: 1vmax;
+    background-color: white;
+}
+
+.note a{
+    display: inline-block;
+    padding: 1vmin 1vmax;
+    margin: 1vmax 0;
+    background-color: #333333;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.error{
+    color: red;
+    margin: 1vmax 0;
+    padding: 1vmax;
+    box-shadow:inset 0 0 2px 1px red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input[type=submit]{
+    padding: 1vmax;
+    background: #333333;
+    color: white;
+    cursor: pointer;
+}
